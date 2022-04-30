@@ -70,12 +70,8 @@ Console.WriteLine("Введите количество элементов мас
 int infoLength = Convert.ToInt32(Console.ReadLine());
 
 int[] infoArray = UserCreateInfoArray(infoLength);
-//Console.WriteLine("Mассив info:");
-//PrintArray(infoArray);
 
 int[] dataArray = UserCreateDataArray(DataArrayLength(infoArray));
-//Console.WriteLine("Mассив data:");
-//PrintArray(dataArray);
 
 int[] resultArray = ResultArrayFunction (dataArray,infoArray);
 
